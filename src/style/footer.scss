@@ -1,0 +1,32 @@
+.footer{
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    background-color : black;
+    p{
+        font-size : 20px;
+        color : white;
+    }
+    a{
+        text-decoration : none;
+        margin-top : -10px;
+        font-size : 20px;
+        padding-bottom : 20px;
+        color : white;
+    }
+}
+
+.pFooter{
+    margin-top : -10px;
+}
+
+@media (min-width : 320px) and (max-width : 500px){
+    .footer p{
+        font-size : 12px;
+    }
+
+    .footer a{
+        font-size : 15px;
+    }
+}

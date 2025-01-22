@@ -1,0 +1,159 @@
+.infoCarousel {
+    display : flex;
+    justify-content: space-between;
+}
+
+
+.title-location-tags{
+    display : flex;
+    flex-direction : column;
+    justify-content : space-between;
+    margin-left : 100px;
+    height : 100px;
+    width : 58%;
+    h2{
+       color : #FF6060;
+    }
+}
+
+    .tag-bubble{
+        margin-right : 15px;
+        border : solid 1px;
+        padding : 4px 15px;
+        border-radius : 26px;
+        background-color : rgba(255,96,96,1);
+        color : white;
+    }
+
+    .host-ratings{
+        display : flex;
+        flex-direction : column;
+        justify-content : space-between;
+        align-items : flex-end;
+        margin-right : 100px;
+    }
+
+
+
+    .star{
+        margin-right : 7px;
+        font-size : 20px;
+    }
+
+    .star-filled{
+        color : rgba(255,96,96,1)
+    }
+
+    .star-empty{
+        color : #E3E3E3;
+    }
+
+
+    
+
+    .hostName-hostPicture{
+        display : flex;
+        justify-content : flex-end;
+        align-items : center;
+        width : 50px;
+        height : 70px;
+        
+    }
+
+    .hostPicture{
+        width : 64px;
+        height : 64px;
+        border-radius : 39px;
+    }
+
+    .hostName{
+        text-align: end;
+        margin-right : 5px;
+        color : #FF6060;
+        font-size : 18px;
+        display : flex;
+        align-items: space-between;
+    }
+
+    @media (max-width : 900px){
+
+        .title-location-tags {
+
+            h2{
+                font-size : 20px;
+            }
+
+            h4{
+                font-size : 15px;
+            }
+        }
+
+        .tag-bubble{
+            font-size : 12px;
+            margin-right : 7px;
+        }
+
+        .star{
+            font-size : 14px;
+            margin-right : 3px;
+        }
+    }
+
+    @media (max-width : 719px) and (min-width : 319px){
+
+        .infoCarousel{
+            display : flex;
+            flex-direction : column;
+            justify-content : space-between ;
+        }
+        
+
+     
+
+        .title-location-tags{
+            margin :0 20px 20px 20px;
+            height : 100px;
+            width : calc(100% - 40px);
+
+            h2{
+                font-size : 18px;
+            }
+        }
+
+        .tag-bubble{
+            margin-right : 5px;
+            font-size : 10px;
+        }
+
+        .host-ratings{
+            display : flex;
+            flex-direction : row;
+            justify-content : space-between;
+            margin : 10px 20px 10px 20px;
+        }
+
+        .hostName-hostPicture{
+            order : 2;
+            margin-right : 10px;
+            height : 32px;
+        }
+
+        .rating{
+            order : 1;
+            margin : 0 0 0 5px;
+        }
+
+        .hostName{
+            font-size: 12px;
+        }
+
+        .hostPicture{
+            height : 32px;
+            width : 32px;
+        }
+        
+    }
+
+
+
+  

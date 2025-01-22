@@ -1,0 +1,307 @@
+
+
+[
+    {
+        "id": "1",
+        "title": "Projet Riding Cities",
+        "cover": "/assets/dataPicture/projet11.webp",
+        "pictures": [
+            "/assets/dataPicture/projet11.webp",
+            "/assets/dataPicture/projet1.2.webp",
+            "/assets/dataPicture/projet1.3.webp",
+            "/assets/dataPicture/projet1.4.webp"
+        ],
+        "description": "Ce premier projet consistait à relier les balises HTML et propriétés CSS déjà existantes dans le dossier grâce aux class! La page devait être conforme à la maquette Figma",
+        "host": {
+            "name": "https://github.com/LittleDevJr/Projet-Riding-Cities.git",
+            "picture": "/assets/homePicture/logoGitHub.png"
+        },
+        "rating": "1",
+        "location": "Objectif : Premier pas sur le langage HTML",
+        "equipments": [
+            "Utilisation des balises HTML",
+            "Utilisation des propriétés CSS",
+            "Associer le HTML et le CSS grâce aux class"
+            
+        ],
+        "tags": [
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Projet Booki",
+        "cover": "/assets/dataPicture/projet2.1.webp",
+        "pictures": [
+            "/assets/dataPicture/projet2.1.webp",
+            "/assests/dataPicture/projet2.2.webp",
+            "/assests/dataPicture/projet2.3.webp"
+        ],
+        "description": "Ce projet nous a fait réalisé entièrement la page statique d'une agence immobilière. Nous devions suivre la maquette et obtenir le même rendu en utilisant toutes nos connaissances HTML et CSS! Très bon entrainement de mise en page!",
+        "host": {
+            "name": "https://github.com/LittleDevJr/Projet-Booki.git",
+            "picture": "/assets/homePicture/logoGitHub.png"
+        },
+        "rating": "2",
+        "location": "Objectif : Créez la page d'accueil d'une agence de voyage en HTML et CSS",
+        "equipments": [
+            "Savoir structurer une page HTML",
+            "Connaitre Flex/Grid",
+            "Associer le HTML et le CSS",
+            "Rendre une page responsive",
+            "Utilisation GitHub",
+            "Utiliser le terminak"
+        ],
+        "tags": [
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Projet Ohmyfood",
+        "cover": "/assets/dataPicture/projet3.1.webp",
+        "pictures": [
+            "/assets/dataPicture/projet3.1.webp",
+            "/assets/dataPicture/projet3.2.webp",
+            "/assets/dataPicture/projet3.3.webp",
+            "/assets/dataPicture/projet3.4.webp",
+            "/assets/dataPicture/projet3.5.webp"
+        ],
+        "description": "Ce projet nous a permis de créer une application mobile first non fonctionnelle. Le but principal de ce projet était de nous donner une première approche de l'outil Sass mais aussi à nous apprendre les bases de l'animation CSS. Vous pourrez voir sur ce projet plusieurs animations basiques mais aussi un loader entre chaque changement de pages!",
+        "host": {
+            "name": "https://github.com/LittleDevJr/OpenClassRoomsProject.git",
+            "picture": "/assets/homePicture/logoGitHub.png"
+        },
+        "rating": "3",
+        "location": "Objectif : Améliorez l'interface d'un site mobile first avec des animations CSS",
+        "equipments": [
+            "Structurer une page HTML",
+            "Utiliser Sass",
+            "Réaliser des animations simples",
+            "Suivre la maquette Figma",
+            "Gérer le responsive",
+            "Utiliser le terminal",
+            "Utiliser GitHub"
+        ],
+        "tags": [
+            "HTML",
+            "SASS"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Projet Print It",
+        "cover": "/assets/dataPicture/projet4.1.webp",
+        "pictures": [
+            "/assets/dataPicture/projet4.1.webp",
+            "/assets/dataPicture/projet4.2.webp",
+            "/assets/dataPicture/projet4.3.webp"
+        ],
+        "description": "Ce projet nous a permis de faire une première approche de Javascript. Nous devions réaliser un caroussel dynamique! En cliquant sur une des flèches le caroussel devait passer à l'image et à la bullet suivante ou précédante selon la flèche utilisée. Le caroussel devait gérer le cas où l'utilisateur dépasse la longueur minimale ou maximale des images afin que celles bouclent correctement.",
+        "host": {
+            "name": "https://github.com/LittleDevJr/Projet5.git",
+            "picture": "/assets/homePicture/logoGitHub.png"
+        },
+        "rating": "3",
+        "location": "Objectif : Premiers pas sur le langage Javascript",
+        "equipments": [
+            "Utiliser les fondamentaux du Javascript",
+            "Savoir combiner HTML, CSS et JS",
+            "Commencer à résouder des problèmes en JS",
+            "Gestion d'événemnts JavaScript",
+            "Utiliser le terminal",
+            "Utiliser GitHub"
+
+        ],
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Projet Sophie Bluel",
+        "cover": "/assets/dataPicture/projet5.1.webp",
+        "pictures": [
+            "/assets/dataPicture/projet5.1.webp",
+            "/assets/dataPicture/projet5.2.webp",
+            "/assets/dataPicture/projet5.3.webp",
+            "/assets/dataPicture/projet5.4.webp",
+            "/assets/dataPicture/projet5.5.webp",
+            "/assets/dataPicture/projet5.6.webp"
+        ],
+        "description": "Ce projet consistait à réaliser un portfolio pour une architecte en utilisant le Javascript et les diverses requêtes fetch pour pouvoir communiquer avec l'API! Tout d'abord nous devions afficher sur la page d'accueil les différents projets de notre clientes stockés dans l'API. Puis nous devions faire en sorte que notre cliente pouvait se connecter et accéder aux différentes modales de gestion de suppression ou d'ajouts de projets grâce au token d'authentification!",
+        "host": {
+            "name": "https://github.com/LittleDevJr/Projet-6-SBluel.git",
+            "picture": "/assets/homePicture/logoGitHub.png"
+        },
+        "rating": "5",
+        "location": "Objectif : Créez une page web dynamisque avec Javascript",
+        "equipments": [
+            "Communiquez avec une API",
+            "Gérer les requêtes avec Fetch",
+            "Gestion d'événements JavaScript",
+            "Manipuler le DOM avec JavaScript",
+            "Utiliser le terminak",
+            "Utiliser GitHub"
+        ],
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Projet Kasa",
+        "cover": "/assets/dataPicture/projet6.1.webp",
+        "pictures": [
+            "/assets/dataPicture/projet6.1.webp",
+            "/assets/dataPicture/projet6.2.webp",
+            "/assets/dataPicture/projet6.3.webp",
+            "/assets/dataPicture/projet6.4.webp"
+        ],
+        "description": "Ce projet est conçu avec React! Comme d'habitude nous avons du créer le site à partir de zéro. Cette librairie de JS nous fait comprendre l'utilité de React et de programmer nos pages par composants et l'utilité des props qui leurs sont associés? Nous utiliserons ici pour la première fois des hooks tel que UseState et UseEffect!",
+        "host": {
+            "name": "https://github.com/LittleDevJr/kasaProjet.git",
+            "picture": "/assets/homePicture/logoGitHub.png"
+        },
+        "rating": "5",
+        "location": "Objectif : Créez une application web d'une agence immobilière avec React",
+        "equipments": [
+            "Installer React+vite",
+            "Créez les composants",
+            "Compréhension des props",
+            "Compréhension du state et des hooks",
+            "Utiliser le terminal",
+            "Utiliser GitHub"
+        ],
+        "tags": [
+            "Sass",
+            "React"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "Projet Nina Carducci",
+        "cover": "../assets/dataPicture/projet7.1.webp",
+        "pictures": [
+            "/assets/dataPicture/projet7.1.webp",
+            "/assets/dataPicture/projet7.2.webp",
+            "/assets/dataPicture/projet7.3.webp"
+        ],
+        "description": "Ce projet dont nous disposions déjà du HTML et CSS nous apprend à améliorer le référencement d'un site web avec LightHouse. Nous devions faire en sorte que les 4 spécificités de LightHouse atteignent un scorte minimale de 90. Nous devions également utilisés les métadonnées de Schema.org pour le référencement local. Mais aussi les OpenGraph de Facebook et les TwitterCards pour les partage sur les réseaux sociaux.",
+        "host": {
+            "name": "https://github.com/LittleDevJr/Projet8-Nina-Carducci-referencement-.git",
+            "picture": "/assets/homePicture/logoGitHub.png"
+        },
+        "rating": "3",
+        "location": "Objectif : Optimisez le référencement d'un site de photographe",
+        "equipments": [
+           "Utiliser LightHouse",
+           "Améliorer la performance",
+           "Améliorer l'accessibilité",
+           "Améliorer le SEO",
+           "Implémenter les OpenGraphs et Twitter Cards",
+           "Utiliser Schema.org pour le référencement local",
+           "Utiliser Rich Snippet",
+           "Effectuer un rapport d'optimisation pour le client",
+           "Utiliser GitHub"
+        ],
+        "tags": [
+           "HTML",
+           "LightHouse"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "Projet 724 Events",
+        "cover": "/assets/dataPicture/projet8.1.webp",
+        "pictures": [
+            "/assets/dataPicture/projet8.1.webp",
+            "/assets/dataPicture/projet8.2.webp",
+            "/assets/dataPicture/projet8.3.webp",
+            "/assets/dataPicture/projet8.4.webp"
+        ],
+        "description": "Celui-ci est un projet de débuggage. Le client nous envoie son site React avec plusieurs bugs à corriger. A l'aide des outils de débuggage fournit par l'inspecteur mais aussi grâce à React DevTools et aux tests unitaires fournis dans le projet. Nous devions faire un cahier de recettes afin d'inscrire tout les tests fonctionnels réalisés.",
+        "host": {
+            "name": "https://github.com/LittleDevJr/Projet-9-Debuggage.git",
+            "picture": "/assets/homePicture/logoGitHub.png"
+        },
+        "rating": "4",
+        "location": "Objectif : Débuggez le site d'une agence",
+        "equipments": [
+           "Utiliser les outils de débuggage",
+           "Utiliser React DevTools",
+           "Lancer et comprendre des tests unitaires",
+           "Réaliser un cahier de recettes pour les tests fonctionnels",
+           "Utiliser le terminak",
+           "Utiliser GitHub"
+        ],
+        "tags": [
+           "React"
+        ]
+    },
+    {
+        "id": "9",
+        "title": "Projet ArgentBank",
+        "cover": "/assets/dataPicture/projet9.1.webp",
+        "pictures": [
+            "/assets/dataPicture/projet9.1.webp",
+            "/assets/dataPicture/projet9.2.webp",
+            "/assets/dataPicture/projet9.3.webp"
+        ],
+        "description":"Ici nous avons un projet HTML à convertir en React. Une fois réalisé nous devons gérer l'état global du site avec Redux. Celui ci nous permettra de gérer les différents états afin de gérer l'authentification de l'utilisateur ainsi que de ses données personnelles grâce aux requêtes API? L'utilisateur pourra, une fois connecté, changer son pseudo",
+        "host": {
+            "name": "https://github.com/LittleDevJr/Projet-10-AgentBank.git",
+            "picture": "/assets/homePicture/logoGitHub.png"
+        },
+        "rating": "5",
+        "location": "Objectif : Implémentez le front-end d'une application bancaire avec React",
+        "equipments": [
+            "Utiliser React",
+            "Utiliser Redux",
+            "Communiquer avec l'API",
+            "Comprendre et utiliser le store",
+            "Comprendre et utiliser les actions et reducer",
+            "Utiliser le terminak",
+            "Utiliser GitHub"
+        ],
+        "tags": [
+           "HTML",
+           "CSS",
+           "React"
+        ]
+    },
+    {
+        "id": "10",
+        "title": "Projet Webagencia",
+        "cover": "/assets/dataPicture/projet10.1.webp",
+        "pictures": [
+            "/assets/dataPicture/projet10.1.webp",
+            "/assets/dataPicture/projet10.2.webp",
+            "/assets/dataPicture/projet10.3.webp"
+        ],
+        "description": "Dans cette mission, le Product Owner du projet est en congé maladie.Il vous a chargé, exceptionnellement, de préparer et planifier ce projet.",
+        "host": {
+            "name": "Adrien Chiran",
+            "picture": "../assets/homePicture/logoGitHub.png"
+        },
+        "rating": "4",
+        "location": "Objectif : Planifiez le développement du site de votre client",
+        "equipments": [
+            "Utiliser la maquette",
+            "Mettre un système de veille",
+            "Planifier avec Kanban",
+            "Préparer une présentation"
+        ],
+        "tags": [
+            "Figma",
+            "Kanban"
+        ]
+    }
+    
+]

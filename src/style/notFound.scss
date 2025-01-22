@@ -1,0 +1,55 @@
+.err404{
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 410.69px;
+    text-align : center;
+    color : rgba(255,96,96,1);
+}
+
+.errorPage{
+  display : flex;
+  flex-direction : column;
+  justify-content : space-between;
+  align-items : center;
+}
+
+.homeclic{
+  margin : 50px 0 50px 0; 
+  color : #000000;
+  font-size : 18px;
+}
+
+.errorMessageContent{
+  display : flex;
+  align-items : center;
+  margin-bottom : 50px;
+}
+
+.errorMessage{
+  font-size : 36px;
+  color : #FF6060;
+  margin-right : 7px;
+}
+
+@media (max-width : 719px) and (min-width : 319px){
+  .err404{
+    font-size : 96px;
+  }
+
+  .errorMessageContent{
+    display : flex;
+    flex-direction: column;
+    align-items : center;
+    justify-content : center;
+  }
+
+  .errorMessage{
+    font-size : 18px;
+  }
+}
+
+@media (max-width : 900px){
+    .err404 {
+        font-size : 170px;
+    }
+}

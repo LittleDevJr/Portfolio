@@ -1,0 +1,274 @@
+.aside-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .aside-text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .aside-img img {
+    max-width: 100%;
+    height: 450px;
+    border-radius: 8px;
+  }
+  
+  .title1 {
+    font-size: 80px;
+  }
+  
+  .p1 {
+    font-size: 60px;
+    font-style: italic;
+  }
+  
+  .aside-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .aside-text2 {
+    flex: 1;
+    margin-left: 20px;
+    order: 2; 
+  }
+  
+  .aside-img2 {
+    order: 1; 
+  }
+  
+  .aside-img2 img {
+    max-width: 100%;
+    height: 450px;
+    border-radius: 8px;
+  }
+  
+  .title2 {
+    font-size: 80px;
+  }
+  
+  .p2 {
+    font-size: 60px;
+    font-style: italic;
+  }
+
+  .language{
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items : center;
+  }
+
+  .title3{
+    font-size : 80px;
+    
+  }
+
+  .featureContent{
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+  }
+
+  .contact{
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 159, 159);
+    h3{
+      font-size : 60px;
+      color : white;
+    }
+    form{
+      display: flex;
+      flex-direction : column;
+      label{
+        display: flex;
+        flex-direction: column;
+        width : 300px;
+        margin : 15px;
+        font-size : 30px;
+        color: white;
+        input{
+          height : 30px;
+          margin-top : 10px;
+        }
+        textarea{
+          height : 70px;
+          margin-top : 10px;
+        }
+        }
+      }
+    }
+
+    .contact button{
+      width : 200px;
+      height : 60px;
+      border-radius : 36px;
+      margin : 20px auto;
+      font-size : 20px;
+      cursor: pointer;
+      background-color : black;
+      color: white;
+    }
+
+    .black{
+      background-color: black;
+      color : white;
+    }
+
+    .grey{
+      color: white;
+      background-color: rgb(163, 159, 159);
+    }
+  
+  @media (max-width : 1200px){
+    .title1{
+      font-size : 50px;
+    }
+
+    .p1{
+      font-size : 40px;
+    }
+
+    .aside-img img {
+      max-width: 90%;
+      height: 330px;
+      border-radius: 8px;
+    }
+
+    .aside-img2 img {
+      max-width: 90%;
+      height: 330px;
+      border-radius: 8px;
+    }
+    
+    .title2 {
+      font-size: 50px;
+    }
+    
+    .p2 {
+      font-size: 40px;
+      font-style: italic;
+    }
+
+    .title3,
+    .contact h3{
+      font-size: 50px;
+    }
+  }
+
+  @media (max-width : 800px){
+    .title1{
+      font-size : 40px;
+    }
+
+    .p1{
+      font-size : 30px;
+    }
+
+    .aside-img img {
+      max-width: 90%;
+      height: 230px;
+      border-radius: 8px;
+    }
+
+    .aside-img2 img {
+      max-width: 90%;
+      height: 230px;
+      border-radius: 8px;
+    }
+    
+    .title2 {
+      font-size: 40px;
+    }
+    
+    .p2 {
+      font-size: 30px;
+      font-style: italic;
+    }
+
+    .title3,
+    .contact h3{
+      font-size: 40px;
+    }
+  }
+
+  @media (max-width : 670px){
+
+    .title1{
+      font-size : 30px;
+    }
+
+    .p1{
+      font-size : 20px;
+    }
+
+    .aside-img img {
+      max-width: 90%;
+      height: 150px;
+      border-radius: 8px;
+    }
+
+    .aside-img2 img {
+      max-width: 90%;
+      height: 150px;
+      border-radius: 8px;
+    }
+    
+    .title2 {
+      font-size: 30px;
+    }
+    
+    .p2 {
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    .title3,
+    .contact h3{
+      font-size: 40px;
+    }
+  }
+  
+  @media (min-width : 320px) and (max-width : 500px){
+    .title1{
+      font-size : 18px;
+    }
+
+    .p1{
+      font-size : 12px;
+    }
+
+    .aside-img img {
+      max-width: 90%;
+      height: 150px;
+      border-radius: 8px;
+    }
+
+    .aside-img2 img {
+      max-width: 90%;
+      height: 140px;
+      border-radius: 8px;
+    }
+    
+    .title2 {
+      font-size: 18px;
+    }
+    
+    .p2 {
+      font-size: 12px;
+      font-style: italic;
+    }
+
+    .title3,
+    .contact h3{
+      font-size: 30px;
+    }
+  }
