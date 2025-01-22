@@ -5,7 +5,7 @@ import Footer from "./components/footer.jsx";
 import Home from "./pages/home.jsx";
 import MesProjets from "./pages/mesProjets.jsx";
 import ProjetDescription from "./pages/projetDescription.jsx";
-import NotFound from "./pages/NotFound.jsx";
+import NotFound from "./pages/notFound.jsx";
 
 function App(){
   return (
