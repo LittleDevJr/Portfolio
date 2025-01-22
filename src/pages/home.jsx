@@ -5,7 +5,7 @@ import asideImg2 from "../assets/homePicture/logoOCR.webp";
 import Feature from "../components/feature.jsx";
 import LogoLang1 from "../assets/homePicture/logoHTML5.png";
 import LogoLang2 from "../assets/homePicture/logoCSS3.png";
-import LogoLang3 from "../assets/homePicture/logoJavaScript.png";
+import LogoLang3 from "../assets/homePicture/logoJavascript.png";
 import LogoLang4 from "../assets/homePicture/logoReact+Vite.jpeg";
 import LogoTool from "../assets/homePicture/logoTerminak.png";
 import LogoTool2 from "../assets/homePicture/logoGitHub.png";
