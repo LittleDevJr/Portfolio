@@ -12,7 +12,7 @@ function Collapse({ title, children, headerClassName, contentClassName }) {
         <div className="collapse">
             <div className={`collapse-header ${headerClassName}`} onClick={toggleCollapse}>
                 <h3>{title}</h3>
-                {isOpen ? <FaChevronDown /> : <FaChevronUp />}
+                {isOpen ? <FaChevronUp /> : <FaChevronDown />}
             </div>
             {isOpen && <div className={`collapse-content ${contentClassName}`}>{children}</div>}
         </div>
